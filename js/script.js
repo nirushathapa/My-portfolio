@@ -137,16 +137,6 @@ document.addEventListener('DOMContentLoaded', function() {
         downloadBtn.addEventListener('click', function(e) {
             e.preventDefault();
             
-          
-            
-            // Create blob and download
-            const blob = new Blob([cvContent], { type: 'text/plain' });
-            const url = window.URL.createObjectURL(blob);
-            const link = document.getElementById('cvDownloadLink');
-            link.href = url;
-            link.download = 'Nirusha_UI_UX_Designer_CV.txt';
-            link.click();
-            
             // Cleanup
             window.URL.revokeObjectURL(url);
             
