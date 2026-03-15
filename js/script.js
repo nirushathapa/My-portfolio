@@ -137,45 +137,7 @@ document.addEventListener('DOMContentLoaded', function() {
         downloadBtn.addEventListener('click', function(e) {
             e.preventDefault();
             
-            // Create a simple text CV (in real project, you'd link to actual PDF)
-            const cvContent = `
-NIRUSHA - UI/UX DESIGNER
-
-CONTACT:
-Email: nirusha.design@gmail.com
-Phone: +977 98XXXXXXXX
-Location: Kathmandu, Nepal
-
-PROFILE:
-Creative UI/UX designer passionate about creating user-centered designs 
-that are both beautiful and functional. Currently studying BIT and 
-focusing on creating intuitive digital experiences.
-
-SKILLS:
-• UI Design
-• UX Research
-• Wireframing
-• Prototyping
-• Visual Design
-• Figma
-• Adobe XD
-• HTML/CSS
-
-EDUCATION:
-BIT (Current) - Pursuing Bachelor in Information Technology
-
-PROJECTS:
-1. Food Delivery App Design - UI/UX design for food delivery app
-2. E-commerce Website - Modern e-commerce design
-3. Personal Portfolio - Minimal portfolio design
-
-LANGUAGES:
-• English (Fluent)
-• Nepali (Native)
-
-AVAILABILITY:
-Open for freelance and internship opportunities
-            `;
+          
             
             // Create blob and download
             const blob = new Blob([cvContent], { type: 'text/plain' });

@@ -276,34 +276,6 @@ nav ul li a.active::after{
     100% { border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; }
 }
 
-.experience-badge{
-    position: absolute;
-    bottom: 30px;
-    right: -20px;
-    background: #ff004f;
-    padding: 15px 25px;
-    border-radius: 30px;
-    text-align: center;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-    animation: float 3s ease-in-out infinite;
-}
-
-@keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
-}
-
-.experience-badge span{
-    font-size: 20px;
-    font-weight: 700;
-    display: block;
-}
-
-.experience-badge small{
-    font-size: 12px;
-    opacity: 0.9;
-}
-
 /* SECTIONS */
 .section{
     padding: 100px 10%;
